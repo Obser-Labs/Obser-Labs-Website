@@ -1,0 +1,93 @@
+/* General */
+
+
+button{
+    margin: 10px 5px;
+}
+li{
+    margin: 10px;
+}
+body{
+    width: 90%;
+    max-width: 960px;
+    margin: 0px auto;
+}
+#btns{
+    display: none;
+}
+h1{
+    margin: 100px;
+}
+
+
+
+#title {
+    margin: 0px auto;
+    text-align: center;
+}
+
+#nextButton {
+    margin: 0px auto;
+}
+
+#nextBtnDiv {
+    width: 100%;
+    text-align: center;
+}
+
+a.button6{
+    display:inline-block;
+    padding:0.7em 1.4em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.15em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    text-transform:uppercase;
+    font-weight:400;
+    color:#FFFFFF;
+    background-color:#3369ff;
+    box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+    text-align:center;
+    position:relative;
+}
+
+a.button6:active{
+    top:0.1em;
+}
+
+@media all and (max-width:30em){
+    a.button6{
+        display:block;
+        margin: 0.4em auto;
+    }
+}
+
+/* Camera Page */
+
+#container {
+	margin: 0px auto;
+	width: 1280px;
+	height: 720px;
+    border: 5px #FF0000 solid;
+    border-radius: .75%;
+}
+
+#videoElement {
+	width: 1280px;
+	height: 720px;
+	background-color: #666;
+}
+
+#switchCamera {
+    margin-top: 15px;
+    text-align: center;
+}
+/*
+Display: 1366 x 768
+
+Top: 1280 x 720
+
+Bottom: 2592 x 1944
+
+Green: 00FF00, Red: FF0000
